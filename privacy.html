@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claudio – informativa privacy</title>
+  <meta name="description" content="Informativa privacy di Claudio, assistente personale privato.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav><a href="./">Home</a><a href="privacy.html">Informativa privacy</a></nav>
+
+  <h1>Informativa privacy</h1>
+  <p class="meta">Ultimo aggiornamento: 17 novembre 2026</p>
+
+  <p>Claudio è un assistente personale privato, usato da una sola persona: il
+  suo sviluppatore. Questa informativa descrive come Claudio tratta i dati,
+  compresi quelli ottenuti dalle API di Google.</p>
+
+  <h2>Chi usa Claudio</h2>
+  <p>Claudio risponde a un solo account Telegram, quello del proprietario. Non
+  raccoglie dati di altre persone: i messaggi di altri account vengono
+  ignorati senza essere salvati.</p>
+
+  <h2>Dati trattati</h2>
+  <ul>
+    <li><strong>Messaggi, vocali, foto e documenti</strong> inviati dal
+      proprietario su Telegram.</li>
+    <li><strong>Google Calendar</strong> (permesso <code>calendar.events</code>):
+      lettura degli eventi per rispondere alle domande e inviare promemoria;
+      creazione, modifica e cancellazione degli eventi solo dopo una conferma
+      esplicita del proprietario.</li>
+    <li><strong>Gmail</strong> (permesso <code>gmail.readonly</code>): lettura
+      e ricerca delle email, solo quando il proprietario chiede un riassunto o
+      una ricerca. Claudio non può inviare, cancellare, archiviare o
+      modificare email.</li>
+  </ul>
+
+  <h2>Dove vengono conservati</h2>
+  <p>Tutti i dati restano sul computer del proprietario: un database locale,
+  una cartella di archivio e il token di autorizzazione Google, salvato in un
+  file locale protetto. Claudio non ha server propri e non conserva dati in
+  cloud.</p>
+
+  <h2>Con chi vengono condivisi</h2>
+  <p>Per comprendere le richieste e preparare le risposte, il testo necessario
+  (per esempio il contenuto di un'email da riassumere) viene inviato al modello
+  di intelligenza artificiale Claude di Anthropic, attraverso l'abbonamento
+  personale del proprietario. I dati non vengono venduti, non vengono usati per
+  pubblicità e non vengono condivisi con altri soggetti.</p>
+
+  <h2>Uso limitato dei dati Google</h2>
+  <p>L'uso e il trasferimento ad altre applicazioni delle informazioni ricevute
+  dalle API di Google rispettano le
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Norme
+  sui dati utente dei servizi API di Google</a>, inclusi i requisiti di uso
+  limitato (Limited Use). In particolare, i dati Google:</p>
+  <ul>
+    <li>sono usati solo per offrire al proprietario le funzioni di Claudio;</li>
+    <li>non sono trasferiti a terzi, salvo quanto necessario per queste
+      funzioni (l'elaborazione da parte del modello Claude) o per obblighi di
+      legge;</li>
+    <li>non sono usati per pubblicità né per addestrare modelli di
+      intelligenza artificiale generici;</li>
+    <li>non sono letti da persone, salvo il proprietario stesso.</li>
+  </ul>
+
+  <h2>Cancellazione e revoca</h2>
+  <p>Il proprietario può revocare in qualsiasi momento l'accesso di Claudio al
+  proprio account Google dalla pagina
+  <a href="https://myaccount.google.com/permissions">Account Google →
+  App di terze parti</a>, e cancellare i dati locali eliminando il database e
+  l'archivio dal proprio computer.</p>
+
+  <h2>Contatti</h2>
+  <p>Per domande su questa informativa potete aprire una segnalazione nel
+  <a href="https://github.com/TreBisc/claudio-assistente/issues">repository del progetto</a>.</p>
+
+  <footer>Claudio · progetto personale · <a href="./">Home</a></footer>
+</main>
+</body>
+</html>
